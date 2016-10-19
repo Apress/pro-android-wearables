@@ -1,0 +1,28 @@
+<resources>
+        <string name="app_name">Pro WatchFace Options</string>
+        <string name="prowatchface_config">Configure Watch Face</string>
+        <string name="no_connected_device">Wearable Device Not Connected!</string>
+        <string name="ok_button_label">OK</string>
+        <string name="pro_config_tick_mark">Tick Marks</string>
+        <string name="pro_config_hour_hand">Hour Hand</string>
+        <string name="pro_config_minute_hand">Minute Hand</string>
+        <string name="pro_config_second_hand">Second Hand</string>
+        <string name="color_yellow">Yellow</string>
+        <string name="color_blue">Blue</string>
+        <string name="color_red">Red</string>
+        <string name="color_green">Green</string>
+        <string name="color_cyan">Cyan</string>
+        <string name="color_magenta">Magenta</string>
+        <string name="color_gray">Gray</string>
+        <string name="color_white">White</string>
+        <string-array name="color_array">
+            <item>@string/color_yellow</item>
+            <item>@string/color_blue</item>
+            <item>@string/color_red</item>
+            <item>@string/color_green</item>
+            <item>@string/color_cyan</item>
+            <item>@string/color_magenta</item>
+            <item>@string/color_gray</item>
+            <item>@string/color_white</item>
+        </string-array>
+</resources>

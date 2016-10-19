@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:id="@+id/title" android:text="@string/prowatchface_config"
+        android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" >
+        <TextView android:text="@string/pro_config_tick_mark" android:layout_width="0dp"
+            android:layout_height="wrap_content" android:layout_weight="1" />
+        <Spinner android:id="@+id/tickMarks" android:entries="@array/color_array"
+            android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="3" />
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" >
+        <TextView android:text="@string/pro_config_hour_hand" android:layout_width="0dp"
+            android:layout_height="wrap_content" android:layout_weight="1" />
+        <Spinner android:id="@+id/hourHand" android:entries="@array/color_array"
+            android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="3" />
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" >
+        <TextView android:text="@string/pro_config_minute_hand" android:layout_width="0dp"
+            android:layout_height="wrap_content" android:layout_weight="1" />
+        <Spinner android:id="@+id/minuteHand" android:entries="@array/color_array"
+            android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="3" />
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" >
+        <TextView android:text="@string/pro_config_second_hand" android:layout_width="0dp"
+            android:layout_height="wrap_content" android:layout_weight="1" />
+        <Spinner android:id="@+id/secondHand" android:entries="@array/color_array"
+            android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="3" />
+    </LinearLayout>
+</LinearLayout>
